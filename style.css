@@ -319,7 +319,7 @@ section.services{
 
 @media screen and (max-width:888px) {
     .container section.home-page{
-    background-image:url(meenassets/wwallpaper.png);
+    background-image:url(Meenassets/wwallpaper.png);
     background-position: right;
     background-size: cover;
     }
