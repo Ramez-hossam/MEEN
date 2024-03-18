@@ -343,7 +343,7 @@ section.services{
     align-items: center;
 }
 .left-foot{
-    width: 50%;
+    width: 40%;
     height: 90%;
     display: flex;
     justify-content: space-between;
@@ -393,6 +393,7 @@ section.services{
     font-size: 18px;
     font-weight: 800;
 }
+
 .right-foot{
     width: 35%;
     height: 80%;
@@ -418,6 +419,13 @@ section.services{
 .foot .right-foot .social-icons a:hover{
     background-color: black;
     color: rgb(117, 87, 62);
+}
+.right-foot p a{
+    text-decoration: none;
+    color: #000;
+}
+.right-foot p a:hover{
+    text-decoration: underline;
 }
 
 
@@ -523,15 +531,15 @@ section.services{
     .left-right-foot p {
         font-size: 11px;
     }
- }
+}
 
-
-@media screen and (max-width:738px) {
+@media screen and (max-width:769px) {
     .card-content a{
         width: 100%;
         font-size: 11px;
     }
 }
+
 @media (max-width:696px){
     .card{
         padding: 10px 25px;
@@ -593,37 +601,40 @@ section.services{
         font-size: 12px;
     }
 }
-@media (max-width:426px){
+
+@media (max-width:431px){
     .logo{
         width: 25%;
         margin-left: 30px;
     }
     .hoodie img{
-        width: 50%;
+        width: 75%;
         height: auto;
     }
     .main {
         flex-direction: column-reverse;
         justify-content: center;
+        background-position: right;
     }
     .card{
-        height: 50%;
+        height: 40%;
         width: 100%;
         z-index: 11;
-        padding: 5px;
+        padding: 0px;
         position: relative;
         border-radius: 0px;
+        z-index: 10;
+        background-color: rgb(160, 119, 85, .2);
     }
     .card-content{
         text-align: end;
-        padding: 10px;
+        padding: 10px 15px;
         align-items: end;
     }
     .card-content img{
         position: absolute;
-        left: 0;
-        width: 150px;
-
+        left: 5px;
+        width: 160px;
     }
     .card-content a{
         width: 50%;
@@ -633,12 +644,15 @@ section.services{
         width: 55%;
     }
     .card-content .cardtxt{
-        flex-direction: column;
+        width: 55%;
+    }
+    .card .card-content .cardtxt h2{
+        font-size: 12px;
     }
     .hoodie{
-        height: 50%;
+        height: 60%;
         width: 100%;
-        transform: translateY(8%);
+        transform: translateY(5%);
     }
     .hoodie h1{
         font-size: 50px;
@@ -649,6 +663,9 @@ section.services{
         text-align: center;
     }
 
+    .products-content{
+        background-position: left;
+    }
     a.card1, a.card2{
         height: 45%;
     }
@@ -659,12 +676,16 @@ section.services{
     a.card1 h2, a.card2 h2 {
         font-size: 22px;
     }
+
+    section.services{
+        background-position: right;
+    }
     .serve img{
-        width: 35%;
-        padding-left: 10px;
+        width: 45%;
+        padding: 10px;
     }
     .serve-content{
-        width: 60%;
+        width: 55%;
         height: 100%;
         padding: 10px;
     }
@@ -676,7 +697,7 @@ section.services{
         font-size: 9px;
     }
     .left-foot{
-        width: 50%;
+        width: 60%;
     }
     .left-foot .img-foot{
         margin-left: 0px;
@@ -687,16 +708,19 @@ section.services{
         width: calc( 100% - 80px );
         justify-content: center;
     }
+    .left-right-foot .nav-foot{
+        height: 30%;
+        padding: 10px 0px;
+    }
     .foot .left-right-foot ul li a{
-        padding: 2px;
-        font-size: 5px;
+        font-size: 7px;
     }
     .left-right-foot p{
         font-size: 7px;
         font-weight: 800;
     }
     .right-foot{
-        width: 40%
+        width: 35%
     }
     .right-foot .social-icons{
         width: 80%;
@@ -718,6 +742,7 @@ section.services{
         margin: 0px;
     }
 }
+
 @media (max-width:321px){
     .hoodie img{
         width: 60%;
