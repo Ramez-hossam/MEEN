@@ -653,14 +653,13 @@ section.services{
         height: 60%;
         width: 100%;
         transform: translateY(5%);
+        padding-left: 15%;
     }
     .hoodie h1{
         font-size: 50px;
-        text-align: center;
     }
     .hoodie h5{
         font-size: 15px;
-        text-align: center;
     }
 
     .products-content{
