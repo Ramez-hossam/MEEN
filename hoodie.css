@@ -152,7 +152,7 @@ nav a:hover,nav .active{
 }
 .box a{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -160,7 +160,7 @@ nav a:hover,nav .active{
     width: 75%;
     border-radius: 8px;
     font-weight: 700;
-    padding: 5px 15px;
+    padding: 5px 25px;
     transition: all .35s ease;
 }
 .box a i{
